@@ -5,3 +5,5 @@
 <a href = "/CSS/"><p3>CSS</p3></a>
 
 <a href = "/JS/"><p3>JS</p3></a>
+
+<a href = "/GIT/"><p3>GIT</p3></a>
