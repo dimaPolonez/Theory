@@ -1,8 +1,8 @@
 # Theory
 
-<p3>HTML</p3>
+<a href = HTML/READMI.md><p3>HTML</p3></a>
 
-<p3>CSS</p3>
+<a href = CSS/READMI.md><p3>CSS</p3></a>
 
-<p3>JS</p3>
+<a href = JS/READMI.md><p3>JS</p3></a>
 
