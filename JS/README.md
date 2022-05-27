@@ -1,6 +1,6 @@
 # JavaScript (LeaveScript)
 <ul>
-    <li> <a href = "/Guide/"> <h2> Guide </h2> </a> </li>
-    <li> <a href = "/Base/"> <h2> Base </h2> </a> </li>
-    <li> <a href = "/Command/"> <h2> Command </h2> </a> </li>
+    <li><h2><a href = "/Guide/">Guide</a></h2></li>
+    <li><h2><a href = "/Base/">Base</a></h2></li>
+    <li><h2><a href = "/Command/">Command</a></h2></li>
 </ul>
