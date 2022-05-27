@@ -2,13 +2,13 @@
 
 # Big data
 <ul>
-    <li><h2><a href = "/types/">Типы данных</a></h2></li>
-    <li><h2><a href = "/arithmetic/">Арифметические операторы</a></h2></li>
-    <li><h2><a href = "/conditional/">Условные операторы</a></h2></li>
-    <li><h2><a href = "/logical/">Логические операторы</a></h2></li>
-    <li><h2><a href = "/cycles/">Циклы</a></h2></li>
-    <li><h2><a href = "/functions/">Функции</a></h2></li>
-    <li><h2><a href = "/objects/">Объекты</a></h2></li>
+    <li><h2><a href = "/JS/Base/types/">Типы данных</a></h2></li>
+    <li><h2><a href = "/JS/Base/arithmetic/">Арифметические операторы</a></h2></li>
+    <li><h2><a href = "/JS/Base/conditional/">Условные операторы</a></h2></li>
+    <li><h2><a href = "/JS/Base/logical/">Логические операторы</a></h2></li>
+    <li><h2><a href = "/JS/Base/cycles/">Циклы</a></h2></li>
+    <li><h2><a href = "/JS/Base/functions/">Функции</a></h2></li>
+    <li><h2><a href = "/JS/Base/objects/">Объекты</a></h2></li>
 </ul>
 
 # Правила хорошего тона
