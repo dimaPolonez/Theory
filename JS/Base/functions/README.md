@@ -1,13 +1,15 @@
 # Функции
 
-Синтаксис: 
-<xmp>function имя(параметры) { //Function Declaration
-тело функции;
-}</xmp>
-<xmp>let func = function имя(параметры) { //Function Expression
-тело функции;
-}</xmp>
-<xmp>let arrowFunc = имя(параметры) => {тело функции;} //Arrow Function</xmp>
+Синтаксис:<br> 
+function имя(параметры) { //Function Declaration<br>
+тело функции;<br>
+}<br>
+<br>
+let func = function имя(параметры) { //Function Expression<br>
+тело функции;<br>
+}<br>
+<br>
+let arrowFunc = имя(параметры) => {тело функции;} //Arrow Function
 
 Замечания:
 <ul>

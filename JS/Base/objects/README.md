@@ -1,16 +1,19 @@
-# Функции
+# Объекты
 
-Синтаксис: 
-<xmp>let object = new person(); // Конструктор обьекта</xmp>
-<xmp>let object = { //Литерал объекта
-name: 'Dima', // свойства объекта
-age: 28,
-'likes birds': true,
-};</xmp>
-<xmp>delete object.age; //удалит свойство age</xmp>
-<xmp>"имя свойства" in object //проверяет наличие свойства в объекте</xmp>
-<xmp>for (key in object) //вернет все свойства в объекте</xmp>
-<xmp>Object.assign (Новый объект, [object1, object2, object 3]) //создает новый объект из свойств 3 объектов</xmp>
+Синтаксис:<br> 
+let object = new person(); // Конструктор обьекта<br>
+<br>
+let object = { //Литерал объекта<br>
+name: 'Dima', // свойства объекта<br>
+age: 28,<br>
+'likes birds': true,<br>
+};<br>
+<br>
+delete object.age; //удалит свойство age<br>
+<br>
+"имя свойства" in object //проверяет наличие свойства в объекте<br>
+<br>for (key in object) //вернет все свойства в объекте<br>
+<br>Object.assign (Новый объект, [object1, object2, object 3]) //создает новый объект из свойств 3 объектов<br>
 
 Замечания:
 <ul>
