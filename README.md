@@ -1,9 +1,7 @@
 # Theory
-
-<a href = "/HTML/"><p3>HTML</p3></a>
-
-<a href = "/CSS/"><p3>CSS</p3></a>
-
-<a href = "/JS/"><p3>JS</p3></a>
-
-<a href = "/GIT/"><p3>GIT</p3></a>
+<ul>
+    <li> <a href = "/HTML/"> <h2> HTML </h2> </a> </li>
+    <li> <a href = "/CSS/"> <h2> CSS </h2> </a> </li>
+    <li> <a href = "/JS/"> <h2> JS </h2> </a> </li>
+    <li> <a href = "/GIT/"> <h2> GIT </h2> </a> </li>
+</ul>
