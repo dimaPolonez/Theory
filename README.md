@@ -1,7 +1,7 @@
 # Theory
 <ul>
-    <li><a href = "/HTML/"><h2> HTML</h2></a></li>
-    <li><a href = "/CSS/"><h2> CSS </h2></a></li>
-    <li><a href = "/JS/"><h2> JS </h2></a></li>
-    <li><a href = "/GIT/"><h2> GIT </h2></a></li>
+    <li><h2><a href = "/HTML/">HTML</a></h2></li>
+    <li><h2><a href = "/CSS/">CSS</a></h2></li>
+    <li><h2><a href = "/JS/">JS</a></h2></li>
+    <li><h2><a href = "/GIT/">GIT</a></h2></li>
 </ul>
