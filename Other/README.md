@@ -1,4 +1,4 @@
-# OTHER
+# Other
 
 # ООП
 
