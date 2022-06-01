@@ -11,6 +11,8 @@
 <a href = "#ssilki">Ссылки</a><br>
 <a href = "#image">Картинки</a><br>
 <a href = "#media">Медиа</a><br>
+<a href = "#form">Формы</a><br>
+
 
 
 <ul id = "osn">Основные
@@ -25,6 +27,15 @@
 <li> < meta charset="utf-8"> Указывает кодировку страницы </li>
 <li> < meta name="description" content="Описание контента"> Информация которая отображается в поиске, под ссылкой на сайт и title </li>
 <li> < meta name="keywords" content="ключевые слова"> Указывает ключевые слова, содержащиеся на странице. Тем самым помогая роботам корректнее индексировать сайт </li>
+<li> < meta name = "viewport"> позволяет указывать параметры отображения сайта на разных устройствах, в разделе content через запятую<br>
+     < meta name = "viewport" content = "width=800"> фиксированная ширина<br> 
+     < meta name = "viewport" content = "width = device-width"> по ширине устройства<br>
+     < meta name = "viewport" content = "height=800"> фиксированная высота<br>
+     < meta name = "viewport" content = "height = device-height"> по высоте устройства<br> 
+     < meta name = "viewport" content = "initial-scale"> эффект масштабирования от 0.1 до 10<br>
+     < meta name = "viewport" content = "user-scalable"> указывает может ли пользователь масштабировать страницу, с помощью жестов, yes или no</li>
+<li>< link rel = "icon" href = "/favicon.png" type="image/png" sizes="64x64"> добавить на страницу favicon</li>
+<li>< link rel = "stylesheet" href = "style.css"> подключает таблицу стилей к файлу HTML</li>
 </ul>
 
 <ul id = "txt">Текст
@@ -101,6 +112,30 @@
 < source src = "https://example.com/our-video.webm" type = "video/webm"><br>
 < source src = "https://example.com/our-video.ogg" type = "video/ogg"><br>
 < /video> если видосов много, нужно указывать таким образом. Также если будем указывать другие форматы, одинаковых видосов, браузер сможет выбрать тот что поддерживается, атрибут type является обязательным. Атрибуты width и height указывают размер видео. Атрибут autoplay по умолчанию отключен, если мы его задаем, то видео запуститься автоматически сразу после загрузки страницы</li>
+</ul>
+
+<ul id = "form">Формы
+<li>< form action="/search"> форма, данные из которой уйдут на страницу search, если action не указан, то данные уйдут на ту же самую страницу с которой вызывается form < /form></li>
+<li>< form>
+< label for="name"> Здесь можно описать назначение поля формы. for позволяет связаться с полем input. Или можно использовать вложенность</ label>
+< input type="text" id="name" placeholder="Какой то текст"> id помогает связаться с полем label. placeholder выводит внутри поля информацию в каком формате надо его заполнять<br>
+< input type="text"> Текстовое поле<br>
+< input type="button"> Кнопка<br>
+< input type="checkbox" name="Группа с ответами" value="Вариант ответа"> Флажки, для выбора нескольких вариантов<br>
+< input type="image"> Поле с рисунком<br>
+< input type="password"> Поле для ввода пароля, со звездочками<br>
+< input type="radio" name="Группа" value="Вариант ответа"> Переключатели, для выбора одного варианта<br>
+< input type="reset"> Поле для обнулениях данных в форме<br>
+< input type="hiden"> Скрытое поле<br>
+< input type="submit"> Поле для отправки данных на сервер<br>
+< input type="number"> HTML5. Поле для ввода чисел<br>
+< input type="search"> HTML5. Поле для поиска<br>
+< input type="url"> HTML5. Поле для веб-адресов<br>
+< input type="email"> HTML5. Поле для адресов электронной почты<br>
+< input type="tel"> HTML5. Поле для телефонных номеров<br>
+< /form>
+</li>
+
 </ul>
 
 
