@@ -32,18 +32,23 @@
     <li>git init //Сделать из локальной папки репозиторий</li> 
     <li>git status //Показывать состояние объектов в локальной папке</li>
     <li>git add . //Проиндексировать все файлы в папке с HEAD</li>
-    <li>git add -a //Проиндексировать все файлы в локальном репозитории</li>
+    <li>git add -A //Проиндексировать все файлы в локальном репозитории</li>
 </ul>
 <ul>    
     <li>git commit -m 'name_commit' //Создать коммит</li>
     <li>git reset HEAD //Отменить последний коммит</li>
 </ul>
 <ul>    
-    <li>git checkout -b nameBranch //Создать новую ветку</li>
+    <li>git branch //Показать все ветки</li>
+    <li>git branch nameBranch //Создать ветку</li>
+    <li>git checkout nameBranch //Перейти в ветку</li>
+    <li>git checkout -b nameBranch //Создать новую ветку и перейти в нее</li>
     <li>git push origin nameBranch //Отправляем изменения на сервер *После push ставим -u, если находимся в другой ветке</li>
 </ul>
 <ul>    
-    <li>git pull origin master //Забираем все папки и ветки с изменениями с сервера</li>
+    <li>git fetch //Пулит ветки из гита</li>
+    <li>git fetch origin master //Забираем все папки и ветки с изменениями с сервера и НЕ вносим изменения</li>
+    <li>git pull origin master //Забираем все папки и ветки с изменениями с сервера и вносим изменения</li>
     <li>git pull -f //Восстанавливает все связи с сервером</li>
 </ul>
  
