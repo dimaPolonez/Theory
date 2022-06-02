@@ -15,8 +15,8 @@
 
 # Commands
 <ul>
-    <li>git config user.name "loginGithub"  //Задаем сразу после установки git</li>
-    <li>git config user.email "your@email" //Задаем сразу после установки git</li>
+    <li>git config --global user.name "loginGithub"  //Задаем сразу после установки git</li>
+    <li>git config --global user.email "your@email" //Задаем сразу после установки git</li>
 </ul>
 <ul>
     <li>git help //Получить справку по командам</li>
@@ -28,9 +28,11 @@
     <li>mkdir name //Создать папку в локальной папке</li>
     <li>touch name //Создать файл в локальной папке</li>
 </ul>
-<ul>    
+<ul>   
+    <li>git init //Сделать из локальной папки репозиторий</li> 
     <li>git status //Показывать состояние объектов в локальной папке</li>
-    <li>git add . //Проиндексировать все файлы в папке</li>
+    <li>git add . //Проиндексировать все файлы в папке с HEAD</li>
+    <li>git add -a //Проиндексировать все файлы в локальном репозитории</li>
 </ul>
 <ul>    
     <li>git commit -m 'name_commit' //Создать коммит</li>
