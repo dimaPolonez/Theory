@@ -1,6 +1,7 @@
 # GIT
 
-<a href="https://learngitbranching.js.org/?locale=ru_RU">Игра по GIT</a>
+<a href="https://learngitbranching.js.org/?locale=ru_RU">Игра по GIT</a><br>
+<a href="https://dangitgit.com/ru">Чёрт побери, Гит!</a><br>
 
 # Terms
 <ul>
