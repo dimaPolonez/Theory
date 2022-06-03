@@ -54,6 +54,7 @@
     <li>git pull -f //Восстанавливает все связи с сервером</li>
 </ul>
  
+ 
 # Usefull links 
 <ul>    
     <li><h3><a href = "https://uleming.github.io/gitbook/index.html">Хорошие материалы от Git-комьюнити в виде документации:</a></h3></li>
