@@ -1,5 +1,7 @@
 # GIT
 
+<a href="https://learngitbranching.js.org/?locale=ru_RU">Игра по GIT</a>
+
 # Terms
 <ul>
     <li>Форк (fork) - Копия репозитория</li>

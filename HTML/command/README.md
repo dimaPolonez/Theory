@@ -51,15 +51,32 @@
 <li>< h1, h2, h3, h4, h5, h6> Заголовки разных уровней < /h1, h2, h3, h4, h5, h6></li>
 <li>< pre> Выводит внутри себя текст с сохранением всех пробельных символов < /pre></li>
 <li> < code> Позволяет вставлять код в HTML < /code></li>
+<li> < abbr> Показывает аббривиатуру < /abbr></li>
+<li> < blockquote> - Выделяет текст как цитату. Блочный</li>
+<li> < q> - Выделяет текст как цитату. Строчный</li>
+<li> < br> - Перенос текста на новую строку</li>
+<li> < code> - Представляет фрагмент кода</li>
+<li> < del> < s> - Перечеркивает текст</li>
+<li> < ins> - Выделяет текст подчёркиванием</li>
+<li> < mark> - HTML5. Выделяет фрагменты текста жёлтым фоном</li>
+<li> < sub> - Подстрочное написание</li>
+<li> < sup> - Надстрочное написание</li>
 </ul>
 
 ### Списки <ul id = "spis"> 
 <li>< ul><br>
 < li> маркированый список < /li><br>
 < /ul></li>
-<li>< ol><br>
-< li> нумерованый список < /li><br>
+<li>< ol reversed> можно сделать реверс<br>
+< li value="1"> нумерованый список, можно настроить с помощью value в обратном порядке< /li><br>
 < /ol></li>
+</ul>
+<li>< dl> Список описаний<br>
+< dt> Первый термин< /dt><br>
+     < dd> Описание первого термина< /dd><br>
+< dt> Второй термин< /dt><br>
+     < dd> Описание второго термина< /dd><br>
+< /dl></li>
 </ul>
 
 ### Атрибуты <ul id = "atrib">
@@ -92,11 +109,12 @@
 <li>< a href = "https://github.com/dimaPolonez/Theory"> на другой сайт < /a></li>
 <li>< a href = "#ssilki"> к якорю в документе < /a></li>
 <li>< a href = "Ссылка" target = "_blank"> открыть сайт в новой вкладке < /a></li>
+<li>< a href = "Ссылка.doc" target = "_blank" download> Скачать файл < /a></li>
 </ul>
 
 ### Картинки <ul id = "image">
-<li>< img src = "https://github.com/dimaPolonez/Theory.jpg"> Ссыль на картинку в интернете </li>
-<li>< img src = "project/html/main.jpg"> Ссыль на картинку в папке </li>
+<li>< img src = "https://github.com/dimaPolonez/Theory.jpg" alt = "является обязательным"> Ссыль на картинку в интернете </li>
+<li>< img src = "project/html/main.jpg" alt = ""> Ссыль на картинку в папке </li>
 <li>< img src = "ссылка" alt = "Текстовая информация о картинке"> атрибут alt если картинка не загрузилась </li>
 <li>< img src = "ссылка" alt = "чего то там" width = "200" height = "100"> устанавливаем размер картинки для отображения на сайте, размер оригинальной картинки при этом не меняется </li>
 </ul>
@@ -124,12 +142,13 @@
 <li>< form><br>
 < label for="name"> Здесь можно описать назначение поля формы. for позволяет связаться с полем input. Или можно использовать вложенность</ label><br>
 < input type="text" id="name" placeholder="Какой то текст"> id помогает связаться с полем label. placeholder выводит внутри поля информацию в каком формате надо его заполнять<br>
-< input type="text"> Текстовое поле<br>
-< input type="button"> Кнопка<br>
-< input type="checkbox" name="Группа с ответами" value="Вариант ответа"> Флажки, для выбора нескольких вариантов<br>
+< input type="text"> Текстовое поле.<a href="https://webref.ru/course/html5-form/text">По атрибутам<br>
+< input type="button"> Кнопка.<a href="https://webref.ru/course/html5-form/button">По атрибутам<br>
+< input type="checkbox" name="Группа с ответами" value="Вариант ответа"> Флажки, для выбора нескольких вариантов.<a href="https://webref.ru/course/html5-form/checkbox">По атрибутам<br>
 < input type="image"> Поле с рисунком<br>
-< input type="password"> Поле для ввода пароля, со звездочками<br>
-< input type="radio" name="Группа" value="Вариант ответа"> Переключатели, для выбора одного варианта<br>
+< input type="file"> Поле для загрузки файлов. <a href="https://webref.ru/course/html5-form/file">По атрибутам<br>
+< input type="password"> Поле для ввода пароля, со звездочками.<a href="https://webref.ru/course/html5-form/password">По атрибутам</a><br>
+< input type="radio" name="Группа" value="Вариант ответа"> Переключатели, для выбора одного варианта. <a href="https://webref.ru/course/html5-form/radio">По атрибутам</a><br>
 < input type="reset"> Поле для обнулениях данных в форме<br>
 < input type="hiden"> Скрытое поле<br>
 < input type="submit"> Поле для отправки данных на сервер<br>
@@ -139,9 +158,9 @@
 < input type="email"> HTML5. Поле для адресов электронной почты<br>
 < input type="tel"> HTML5. Поле для телефонных номеров<br>
 < /form></li>
-<li>< textarea rows="4" cols="40"> Элемент который позволяет пользователю вводить несколько строк текста < /textarea></li>
+<li>< textarea rows="4" cols="40"> Элемент который позволяет пользователю вводить несколько строк текста. <a href="https://webref.ru/course/html5-form/textarea">По атрибутам</a>< /textarea></li>
 <li>< form><br>
-< select><br>
+< select><a href="https://webref.ru/course/html5-form/select">По атрибутам</a><br>
 < option disabled> Закрепить заголовок выпадающего списка и заблокировать его для выбора< /option><br>
 < option>Пункт 1</ option><br>
 < option>Пункт 2</ option><br>
@@ -168,20 +187,12 @@
 </ul>
 
 ### Все остальные <ul id="all">
-<li> < !--...-- > - Комментарий</li>
-<li> < blockquote> - Выделяет текст как цитату</li>
-<li> < br> - Перенос текста на новую строку</li>
-<li> < code> - Представляет фрагмент кода</li>
-<li> < del> < s> - Перечеркивает текст</li>
-<li> < div> - Блочный элемент контейнер</li>
+<li> < !--  Комментарий -- ></li>
+<li> < div> - Блочный элемент контейнер< /div></li>
+<li> < span> - Контейнер для строчных элементов< /span></li>
 <li> < hr> - Горизонтальная линия</li>
-<li> < iframe> - Создает встроенный фрейм, в который можно загружать другой HTML документ</li>
-<li> < ins> - Выделяет текст подчёркиванием</li>
-<li> < mark> - HTML5. Выделяет фрагменты текста жёлтым фоном</li>
+<li> < iframe> - Создает встроенный фрейм, в который можно загружать другой HTML документ< /iframe></li>
 <li> < output> - Поле для вывода результатов вычислений</li>
 <li> < progress> - HTML5. Индикатор выполнения любого рода задач</li>
-<li> < span> - Контейнер для строчных элементов</li>
-<li> < sub> - Подстрочное написание</li>
-<li> < sup> - Надстрочное написание</li>
 </ul>
 
