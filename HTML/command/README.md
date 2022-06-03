@@ -15,10 +15,6 @@
 <a href = "#seman">Семантические теги</a><br>
 <a href = "#all">Все остальные</a><br>
 
-
-
-
-
 ### Основные <ul id = "osn">
 <li> < !DOCTYPE html> Первая строка, показывает браузеру что страница размечена по стандарту HTML5</li>
 <li> < html lang="ru"> Всё что находится внутри этих тегов, является веб-страницей формата HTML. Атрибут lang указывает на каком языке написана веб-страница, так как в каждом языке есть свои нюансы при отображении текста < /html></li>
@@ -142,11 +138,11 @@
 <li>< form><br>
 < label for="name"> Здесь можно описать назначение поля формы. for позволяет связаться с полем input. Или можно использовать вложенность</ label><br>
 < input type="text" id="name" placeholder="Какой то текст"> id помогает связаться с полем label. placeholder выводит внутри поля информацию в каком формате надо его заполнять<br>
-< input type="text"> Текстовое поле.<a href="https://webref.ru/course/html5-form/text">По атрибутам<br>
-< input type="button"> Кнопка.<a href="https://webref.ru/course/html5-form/button">По атрибутам<br>
-< input type="checkbox" name="Группа с ответами" value="Вариант ответа"> Флажки, для выбора нескольких вариантов.<a href="https://webref.ru/course/html5-form/checkbox">По атрибутам<br>
+< input type="text"> Текстовое поле.<a href="https://webref.ru/course/html5-form/text">По атрибутам</a><br>
+< input type="button"> Кнопка.<a href="https://webref.ru/course/html5-form/button">По атрибутам</a><br>
+< input type="checkbox" name="Группа с ответами" value="Вариант ответа"> Флажки, для выбора нескольких вариантов.<a href="https://webref.ru/course/html5-form/checkbox">По атрибутам</a><br>
 < input type="image"> Поле с рисунком<br>
-< input type="file"> Поле для загрузки файлов. <a href="https://webref.ru/course/html5-form/file">По атрибутам<br>
+< input type="file"> Поле для загрузки файлов. <a href="https://webref.ru/course/html5-form/file">По атрибутам</a><br>
 < input type="password"> Поле для ввода пароля, со звездочками.<a href="https://webref.ru/course/html5-form/password">По атрибутам</a><br>
 < input type="radio" name="Группа" value="Вариант ответа"> Переключатели, для выбора одного варианта. <a href="https://webref.ru/course/html5-form/radio">По атрибутам</a><br>
 < input type="reset"> Поле для обнулениях данных в форме<br>
