@@ -1,7 +1,7 @@
 # Command
 
 <ul> 
-    <ul>
+    <ul> FONT
         <li>font: style, variant, weight, size/height, family</li>
         <li>font-style: normal(обычный), italic(курсивное начертание), oblique(косое начертание);</li>
         <li>font-variant: normal(обычный), small-caps(капитель, делает все буквы заглавными);</li>
@@ -9,14 +9,20 @@
         <li>font-size: 12px; //Устанавливает размер шрифта / line-height: 14px; //межстрочный интервал</li>
         <li>font-family: Arial, Futura, sans-serif; //выбираем шрифты, если первого не будет, берется второй и т.д.</li>
     </ul>
-    <li>border: 2px solid #000; //Добавляет рамку</li>
-    <li>color: #333333; //Добавляет цвет</li>
-    <li>padding: 10px; //Внутренний отступ</li>
+    <ul> BORDER
+        <li>border: width, style, color;</li>
+        <li>border-width: 1px; //Размер рамки</li>
+        <li>border-style: dotted(пунктирная), dashed(штриховая), solid(сплошная), double(двойная), groove(3d-bold-1), ridge(3d-bold-2), inset(3d-bold-3), outset(3d-bold-4), none(убрать рамку); //Стиль границы рамки</li>
+        <li>border-color: red; //Цвет границы рамки</li>
+        <li>border-radius: 50px; //Закругление рамки</li>
+    </ul>
+    <li>color: #333333; //Добавляет цвет текста</li>
+    <li>background-color: #673ab7; //Добавляет цвет фона</li>
+    <li>padding: 10px(сверху), 10px(справа), 10px(снизу), 10px(слева); //Внутренний отступ. Если указать 1 значение то оно будет ко всем сторонам, если 2 значения, то 1(сверху и снизу) 2(слева и справа)</li>
+    <li>margin: 10px(сверху), 10px(справа), 10px(снизу), 10px(слева); //Внешний отступ. Если указать 1 значение то оно будет ко всем сторонам, если 2 значения, то 1(сверху и снизу) 2(слева и справа)</li>
+    <li>width: 20px; //Ширина блока</li>
+    <li>height: 20px; //Высота блока</li>
+    <li>box-sizing: content-box(по умолчанию), border-box(фиксированная ширина и высота, без падингов и марджинов);</li>
     <li>text-align: left(по левому краю), center(по центру), right(по правому краю), justify(по ширине);</li>
     <li>text-decoration: underline(подчеркивание текста), line-through(перечеркивание текста), overline(надчеркивание текста), none(убирает подчеркивание);</li>
-    
-    
-
-
-
 </ul>
