@@ -1,10 +1,11 @@
 # CSS
 
-<a href="https://flukeout.github.io/">Игра по CSS</a>
-<a href="https://htmlcolorcodes.com/">Colors</a>
-<a href="https://fonts.google.com/">Google Fonts</a>
-<a href="https://caniuse.com/">Can I use</a>
-    
+<ul>
+<li><a href="https://flukeout.github.io/">Игра по CSS</a></li>
+<li><a href="https://htmlcolorcodes.com/">Colors</a></li>
+<li><a href="https://fonts.google.com/">Google Fonts</a></li>
+<li><a href="https://caniuse.com/">Can I use</a></li>
+</ul>  
 
 <ul>
     <li><h2><a href = "/CSS/base/">Base</a></h2></li>
