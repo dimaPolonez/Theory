@@ -5,6 +5,7 @@
 <li><a href="https://htmlcolorcodes.com/">Colors</a></li>
 <li><a href="https://fonts.google.com/">Google Fonts</a></li>
 <li><a href="https://caniuse.com/">Can I use</a></li>
+<li><a href="http://marksheet.io/css/reset.css">Сброс CSS</a></li>
 </ul>  
 
 <ul>
@@ -19,6 +20,9 @@
 <li>Использовать не больше двух шрифтов на странице</li>
 <li>Размер шрифта не меньше 14px и междустрочный интервал не меньше 150%</li>
 <li>Выравнивание текста по левому краю</li>
+<li>В качестве селекторов постараться применять только классы</li>
+<li>Избегать применение нескольких классов к одному элементу</li>
+<li>Избегать инлайнов</li>
 </ul>
 
 ### Справочник

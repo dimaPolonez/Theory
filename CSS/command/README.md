@@ -1,12 +1,13 @@
 # Command
 
 <ul> 
+    <li>/* */ Комментарии в CSS</li>
     <ul> FONT
-        <li>font: style, variant, weight, size/height, family</li>
+        <li>font: style, variant, weight, size(обяз)/height, family(обяз)</li>
         <li>font-style: normal(обычный), italic(курсивное начертание), oblique(косое начертание);</li>
         <li>font-variant: normal(обычный), small-caps(капитель, делает все буквы заглавными);</li>
         <li>font-weight: bold(жирный, 700), normal(обычный, 400), 100-900; //Не все шрифты поддерживают значения</li>
-        <li>font-size: 12px; //Устанавливает размер шрифта / line-height: 14px; //межстрочный интервал</li>
+        <li>font-size: 12px; //Устанавливает размер шрифта / line-height: 14px; //Высота каждой строки</li>
         <li>font-family: Arial, Futura, sans-serif; //выбираем шрифты, если первого не будет, берется второй и т.д.</li>
     </ul>
     <ul> BORDER
@@ -25,6 +26,8 @@
     <li>box-sizing: content-box(по умолчанию), border-box(фиксированная ширина и высота, без падингов и марджинов);</li>
     <li>text-align: left(по левому краю), center(по центру), right(по правому краю), justify(по ширине);</li>
     <li>text-decoration: underline(подчеркивание текста), line-through(перечеркивание текста), overline(надчеркивание текста), none(убирает подчеркивание);</li>
+    <li>text-indent: 30px; //Добавляет отступ для первой строки текста</li>
+    <li>text-shadow: 0(Смещение по оси x) 2px(Смещение по оси y) 5px(размытие) rgba(0,0,0,0.5)(цвет); //тень текста</li>
     <li>position: <br>
     relative; //относительное позиционирование, изменяет положение относительно того где элемент был расположен, место при это остается.<br> 
     absolute; //абсолютное позиционирование, вынимает блок из верстки, место при этом не остается.<br>
